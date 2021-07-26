@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+main {
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100vw;
+    height: 100vh;
+}
+
 nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    background-color: #705664;
     font-family: 'Poppins', sans-serif;
 
 }
