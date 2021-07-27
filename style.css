@@ -1,4 +1,4 @@
-* {
+*, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,11 +25,12 @@ nav {
 
 }
 
-.logo {
+.logo h4 a {
     color: rgb(226, 226, 226);
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .nav-links {
